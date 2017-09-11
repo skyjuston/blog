@@ -1,23 +1,41 @@
 
 //
+// FONT IMPORTS
+//
+
+@font-face {
+  font-family: Contra;
+  src: url("./fonts/CONTRA__.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+//
 // VARIABLES
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #417f9a;
+$red: #9a4152;
+$green: #5cba79;
+$brown: #746153;
+$tan: #c09f80;
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+$black: #373737;
+$darkerGray: #2a2a2a;
+$darkGray: #444444;
+$gray: #5d5d5d;
+$lightGray: #f3f0ee;
 $white: #fff;
 
 // Font stacks
+$headerText: Contra;
 $helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

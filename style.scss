@@ -19,8 +19,8 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: 18px/1.4 $sans-serif;
+  color: $black;
 }
 
 .container {
@@ -31,8 +31,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $sans-serif;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,7 +61,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
 }
 
 p {
@@ -71,9 +70,10 @@ p {
 a {
   color: $blue;
   text-decoration: none;
+  font-weight: 300;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $green;
   }
 }
 
@@ -123,11 +123,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $green;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $green;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -152,18 +152,19 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background: $lightGray;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $darkerGray;
 
   @include mobile {
     text-align: center;
   }
 }
 
-.site-avatar {
+/*.site-avatar {
   float: left;
   width: 70px;
   height: 70px;
@@ -178,7 +179,7 @@ img {
   img {
     border-radius: 5px;
   }
-}
+} */
 
 .site-info {
   float: left;
@@ -192,9 +193,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $red;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $headerText;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -202,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $darkGray;
   font-size: 16px;
 
   @include mobile {
@@ -213,7 +214,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $sans-serif;
   font-size: 18px;
 
   @include mobile {
@@ -254,7 +255,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid $tan;
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;

@@ -1,0 +1,49 @@
+---
+layout: default
+permalink: /cybersecurity
+---
+
+{% capture year_str %}
+  {% for post in site.tags.cybersecurity %}
+    {{post.date | date: "%Y"}}
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign years = year_str | split: "," | uniq %}
+
+<div class="posts">
+
+  {% for year in years %}
+
+    <h1>Posts from {{ year }}:</h1>
+
+    {% assign collection_this_year = site.tags.cybersecurity | where_exp: "item", "item.date contains {{ year }}" %}
+
+    {% capture months_str %}
+      {% for post in collection_this_year %}
+        {{post.date | date: "%B"}}
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    {% endcapture %}
+
+    {% assign months = months_str | split: "," | uniq %}
+
+    {% for month in months %}
+
+    <h2>{{ month }}</h2>
+
+      {% assign posts = site.tags.cybersecurity | where_exp: "post", "post.date contains {{ month }}" %}
+
+      {% for post in posts %}
+
+        <article class="post">
+
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+        </article>
+
+      {% endfor %}
+    {% endfor %}     
+  {% endfor %}
+</div>
