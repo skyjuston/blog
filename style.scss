@@ -157,7 +157,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $darkerGray;
+  /* border-bottom: 1px solid $darkerGray; */
 
   @include mobile {
     text-align: center;
@@ -282,6 +282,31 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+
+// Custom Styles
+
+article > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.archive-listing {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tags {
+  display: inline-block;
+  margin: 1px auto;
+  padding: 1px 10px;
+  border: 1px solid $darkGray;
+  border-radius: 5%;
+  background: $lightGray;
+  font-size: 14px;
+  list-style-type: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
