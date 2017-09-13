@@ -10,7 +10,7 @@ Accompanying this is a published set of eight vulnerabilities using this attack 
 
 Unlike regular attacks, Blueborne has no need for an Internet connection to spread to devices. Instead, it takes advantage of Bluetooth, a set of wireless protocols used for short-range communications. Blueborne does not require users to click on any malicious links, or even be discoverable: a device need only have Bluetooth enabled to be exposed to an attack. Armis' page describes the attack as "airborne," able to penetrate air-gapped systems separated from any network so long as Bluetooth is on. Affected users and businesses are prone to penetration with minimal effort.
 
-Several demonstration videos have been provided by Arnis, with examples of attacks on various mobile phones:
+Several demonstration videos have been provided by Armis, with examples of attacks on various mobile phones:
 
 <div style="text-align:center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Az-l90RCns8" frameborder="0"  allowfullscreen></iframe>
