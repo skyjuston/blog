@@ -4,7 +4,7 @@ title: Python Package Typosquatting Brought to Light
 tags: cybersecurity
 ---
 
-On Thursday, the Slovenian National Security Authority (SK-CSIRT) identified several malicious Python packages on the Python Package Index (PyPI) repository masquerading as prominent modules already included in the language's standard library.
+On Thursday, the Slovakian National Security Authority (SK-CSIRT) identified several malicious Python packages on the Python Package Index (PyPI) repository masquerading as prominent modules already included in the language's standard library.
 
 [The official advisory](http://www.nbu.gov.sk/skcsirt-sa-20170909-pypi/) reports that these packages are similarly named but with small modifications, meant to trick the unwitting developer installing them through the `pip` command-line utility. This technique is the software repository counterpart to what is known as **typosquatting**, the malicious registering of modified domain names similar to legitimate websites (eg. "gooogle [dot] com" as opposed to "google [dot] com").
 
