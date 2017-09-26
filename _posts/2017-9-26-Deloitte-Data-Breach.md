@@ -4,7 +4,7 @@ title: Deloitte Data Breach Discloses Blue-Chip Client Data, Emails
 tags: cybersecurity
 ---
 
-New York-based company Deloitte, one of the world's largest private accounting firms, [confirmed on Monday with news outlet The Guardian](https://www.theguardian.com/business/2017/sep/25/deloitte-hit-by-cyber-attack-revealing-clients-secret-emails) that it fell victim to a data breach that compromised their global email server. The security incident was discovered back in March, and it is believed that the hack may have made vulnerable the usernames, passwords and details of the firm's top clients.
+Deloitte, one of the world's largest private accounting firms, [confirmed on Monday with news outlet The Guardian](https://www.theguardian.com/business/2017/sep/25/deloitte-hit-by-cyber-attack-revealing-clients-secret-emails) that it fell victim to a data breach that compromised their global email server. The security incident was discovered back in March, and it is believed that the hack may have made vulnerable the usernames, passwords and details of the firm's top clients.
 
 However, estimates by The Guardian, confirmed by an anonymous source [in an article by security blog Krebs On Security](https://krebsonsecurity.com/2017/09/source-deloitte-breach-affected-all-company-email-admin-accounts/), placed the time of the intrusion as far back as fall of 2016. An internal company memo circulated last October mandating that employees change their passwords and personal identification numbers in short time supports this idea. 
 
