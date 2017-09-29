@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Illusion Gap" Attack Technique Eludes Windows Defender
+title: Illusion Gap Attack Technique Eludes Windows Defender
 tags: cybersecurity
 ---
 
@@ -31,7 +31,3 @@ In another response sent to [Threatpost, cybersecurity vendor Kaspersky Lab's ne
 ```
 "The technique described has limited practical applicability. To be successful, an attacker would first need to convince a user to give manual consent to execute an unknown binary from an untrusted remote location. The user would also need to click through additional warnings in order to grant the attacker Administrator privileges. Should the attacker successfully convince a user to carry out the manual steps mentioned, Windows Defender Antivirus and Windows Defender Advanced Threat Protection will detect further actions by the attacker."
 ```
-
-
-
-
