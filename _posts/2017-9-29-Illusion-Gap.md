@@ -20,14 +20,13 @@ It is predicted that this attack may also affect other antiviruses.
 
 According to Microsoft, however, this attack does not pose a serious issue. In response to CyberArk's findings, Microsoft sent this statement:
 
-```
+
 "Thanks for your email. Based on your report, successful attack requires a user to run/trust content from an untrusted SMB share backed by a custom server that can change its behavior depending on the access pattern. This doesn’t seem to be a security issue but a feature request which I have forwarded to the engineering group.
 
 Thanks again for reporting security issues to Microsoft responsibly and we appreciate your effort in doing so."
-```
 
-In another response sent to [Threatpost, cybersecurity vendor Kaspersky Lab's news service,](https://threatpost.com/windows-defender-bypass-tricks-os-into-running-malicious-code/128179/), Microsoft elaborated further:
 
-```
+In another response sent to [Threatpost](https://threatpost.com/windows-defender-bypass-tricks-os-into-running-malicious-code/128179/), cybersecurity vendor Kaspersky Lab's news service, Microsoft elaborated further:
+
+
 "The technique described has limited practical applicability. To be successful, an attacker would first need to convince a user to give manual consent to execute an unknown binary from an untrusted remote location. The user would also need to click through additional warnings in order to grant the attacker Administrator privileges. Should the attacker successfully convince a user to carry out the manual steps mentioned, Windows Defender Antivirus and Windows Defender Advanced Threat Protection will detect further actions by the attacker."
-```
