@@ -4,7 +4,7 @@ title: Illusion Gap Attack Technique Eludes Windows Defender
 tags: cybersecurity
 ---
 
-On Thursday, Researchers at CyberArk Labs encountered a method to bypass the Windows Defender security software, allowing any malicious code to execute on a Windows machine.
+On Thursday, researchers at CyberArk Labs encountered a method to bypass the Windows Defender security software, allowing any malicious code to execute on a Windows machine.
 
 This attack technique has been given the nickname "Illusion Gap." CyberArk's official write-up can be found [here](https://www.cyberark.com/threat-research-blog/illusion-gap-antivirus-bypass-part-1/).
 
